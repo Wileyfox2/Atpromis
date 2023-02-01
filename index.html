@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Главная страница</title>
+</head>
+<body>
+
+    <!--Nav Bar--> <!--navbar-nav-scroll-->
+    <nav class="navbar navbar-nav-scroll navbar-expand-lg bg-primary">
+        <div class="container">
+            <nav class="navbar bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-bg-primary p-1" href="#">
+                    <img src="img/Logo.png" alt="Главная"  height="45" class="d-inline-block align-text-center">
+
+                  </a>
+                </div>
+              </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#"><b>Домашнее задание</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Расписание</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Новости</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Оф. группа в Вконтакте</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Контакты и реквизиты</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>Другое</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Сведения об образовательной организации</a></li>
+                  <li><a class="dropdown-item" href="#">Филиал в поселке Белый Яр</a></li>
+                  <li><a class="dropdown-item" href="#">Филиал в с. Зырянское</a></li>
+                  <li><a class="dropdown-item" href="#">Традиции</a></li>
+                  <li><a class="dropdown-item" href="#">Условия для приема и обучения лиц с ОВЗ и инвалидов</a></li>
+                  <li><a class="dropdown-item" href="#">Достижения</a></li>
+                  <li><a class="dropdown-item" href="#">Воспитание</a></li>
+                  <li><a class="dropdown-item" href="#">Выпускникам</a></li>
+                  <li><a class="dropdown-item" href="#">Национальный проект "Образование"</a></li>
+                  <li><a class="dropdown-item" href="#">Услуги мастерских</a></li>
+                  <li><a class="dropdown-item" href="#">Безопасность</a></li>
+                  <li><a class="dropdown-item" href="#">Противодействие Коррупции</a></li>
+                  <li><a class="dropdown-item" href="#">Информационно-методический центр</a></li>
+                  <li><a class="dropdown-item" href="#">Инновационная, экспериментальная работа</a></li>
+                  <li><a class="dropdown-item" href="#">Кластеры</a></li>
+                  <li><a class="dropdown-item" href="#">Служба медиации/Психолого-педагогическая служба</a></li>
+                  <li><a class="dropdown-item" href="#">Совет работодателей</a></li>
+                  <li><a class="dropdown-item" href="#">Управляющий совет</a></li>
+                  <li><a class="dropdown-item" href="#">План Работы</a></li>
+                  <li><a class="dropdown-item" href="#">Центр содействия трудоустройству выпускников</a></li>
+                  <li><a class="dropdown-item" href="#">Обращения граждан</a></li>
+                  <li><a class="dropdown-item" href="#">СМИ о нас</a></li>
+                  <li><a class="dropdown-item" href="#">Электронное обучение</a></li>
+                  <li><a class="dropdown-item" href="#">РУМО</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск">
+              <button class="btn btn-success" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!--Carusel 1-->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 0"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="img/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+      </div>
+    </div>
+
+    <!--Content-->
+
+    <!--1-->
+    <div class="container">
+        <div class="mt-5">
+          <div class="b-wrapper custom-code">
+          <script src="https://pos.gosuslugi.ru/bin/script.min.js"></script> 
+  <style>
+  #js-show-iframe-wrapper{position:relative;display:flex;align-items:center;justify-content:center;width:100%;min-width:293px;max-width:100%;background:linear-gradient(138.4deg,#38bafe 26.49%,#2d73bc 79.45%);color:#fff;cursor:pointer}#js-show-iframe-wrapper .pos-banner-fluid *{box-sizing:border-box}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{display:block;width:240px;min-height:56px;font-size:18px;line-height:24px;cursor:pointer;background:#0d4cd3;color:#fff;border:none;border-radius:8px;outline:0}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:hover{background:#1d5deb}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:focus{background:#2a63ad}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:active{background:#2a63ad}@-webkit-keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@font-face{font-family:LatoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWeb;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:Geometria;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Geometria-ExtraBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.ttf) format("truetype");font-weight:800;font-style:normal}
+  </style>
+  
+  <style>
+  #js-show-iframe-wrapper{background:#fffaf1}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{width:var(--pos-banner-fluid-3__button-width);min-height:var(--pos-banner-fluid-3__button-min-height);background:#1d5deb;font-size:var(--pos-banner-fluid-3__button-font-size);font-family:RobotoWeb,sans-serif;font-weight:400;padding:0;line-height:1.2}#js-show-iframe-wrapper .bf-3{position:relative;display:grid;grid-template-columns:var(--pos-banner-fluid-3__grid-template-columns);grid-template-rows:var(--pos-banner-fluid-3__grid-template-rows);width:100%;max-width:var(--pos-banner-fluid-3__max-width);box-sizing:border-box}#js-show-iframe-wrapper .bf-3__decor{background:var(--pos-banner-fluid-3__bg-url) var(--pos-banner-fluid-3__bg-position) no-repeat;background-size:var(--pos-banner-fluid-3__bg-size)}#js-show-iframe-wrapper .bf-3__content{display:flex;align-items:center;flex-direction:var(--pos-banner-fluid-3__content-flex-direction);padding:var(--pos-banner-fluid-3__content-padding)}#js-show-iframe-wrapper .bf-3__description{display:flex;flex-direction:column;margin:var(--pos-banner-fluid-3__description-margin)}#js-show-iframe-wrapper .bf-3__text{margin:var(--pos-banner-fluid-3__text-margin);font-size:var(--pos-banner-fluid-3__text-font-size);line-height:1.2;font-family:ScadaWeb,sans-serif;font-weight:700;color:#0b1f33}#js-show-iframe-wrapper .bf-3__text_small{margin-bottom:0;font-size:var(--pos-banner-fluid-3__text-small-size);line-height:1.2;font-family:RobotoWeb,sans-serif;font-weight:400}#js-show-iframe-wrapper .bf-3__btn-wrap{width:var(--pos-banner-fluid-3__button-wrap-width);max-width:var(--pos-banner-fluid-3__button-wrap-max-width)}
+  </style>
+  <div id="js-show-iframe-wrapper">
+    <div class="pos-banner-fluid bf-3">
+      <div class="bf-3__decor"></div>
+  
+      <div class="bf-3__content">
+  
+        <div class="bf-3__description">
+            <span class="bf-3__text">
+              Знаете, какая помощь от государства необходима, чтобы реализовать свой потенциал на максимум?
+            </span>
+          <span class="bf-3__text bf-3__text_small">
+              
+            </span>
+        </div>
+  
+        <div class="bf-3__btn-wrap">
+          <!-- pos-banner-btn_2 не удалять; другие классы не добавлять -->
+          <button class="pos-banner-btn_2" type="button">Написать
+          </button>
+        </div>
+  
+      </div>
+  
+    </div>
+  </div>
+  <script>
+  
+  (function(){
+    "use strict";function ownKeys(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);if(t)r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable});n.push.apply(n,r)}return n}function _objectSpread(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{};if(t%2)ownKeys(Object(n),true).forEach(function(t){_defineProperty(e,t,n[t])});else if(Object.getOwnPropertyDescriptors)Object.defineProperties(e,Object.getOwnPropertyDescriptors(n));else ownKeys(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function _defineProperty(e,t,n){if(t in e)Object.defineProperty(e,t,{value:n,enumerable:true,configurable:true,writable:true});else e[t]=n;return e}var POS_PREFIX_3="--pos-banner-fluid-3__",posOptionsInitialBanner3={"grid-template-columns":"100%","grid-template-rows":"110px auto","max-width":"100%","description-margin":"0 0 16px 0","text-font-size":"16px","text-small-size":"14px","text-margin":"0 0 6px 0","button-font-size":"16px","button-width":"100%","button-min-height":"52px","button-wrap-width":"100%","button-wrap-max-width":"350px","bg-url":"url('https://pos.gosuslugi.ru/bin/banner-fluid/3/banner-fluid-bg-3-small.svg')","bg-size":"contain","bg-position":"center","content-padding":"12px 20px 15px 20px","content-flex-direction":"column"},setStyles=function(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:POS_PREFIX_3;Object.keys(e).forEach(function(r){t.style.setProperty(n+r,e[r])})},removeStyles=function(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:POS_PREFIX_3;Object.keys(e).forEach(function(e){t.style.removeProperty(n+e)})};function changePosBannerOnResize(){var e=document.documentElement,t=_objectSpread({},posOptionsInitialBanner3),n=document.getElementById("js-show-iframe-wrapper"),r=n?n.offsetWidth:document.body.offsetWidth;if(r>623)t["grid-template-columns"]="205px 1fr",t["grid-template-rows"]="100%",t["max-width"]="720px",t["bg-size"]="cover",t["bg-position"]="right center",t["content-padding"]="14px 17px 14px 18px",t["content-flex-direction"]="row",t["description-margin"]="0 23px 0 0",t["text-margin"]="0 0 8px 0",t["button-width"]="152px",t["button-wrap-width"]="auto",t["button-wrap-max-width"]="auto";if(r>965)t["grid-template-columns"]="302px 1fr",t["max-width"]="965px",t["content-padding"]="32px 38px 32px 54px",t["description-margin"]="0 34px 0 0",t["text-font-size"]="20px",t["text-small-size"]="16px",t["button-width"]="152px",t["button-min-height"]="52px";setStyles(t,e)}changePosBannerOnResize(),window.addEventListener("resize",changePosBannerOnResize),window.onunload=function(){var e=document.documentElement,t=_objectSpread({},posOptionsInitialBanner3);window.removeEventListener("resize",changePosBannerOnResize),removeStyles(t,e)};
+  })()
+  </script>
+   <script>Widget("https://pos.gosuslugi.ru/form", 241641)</script>			</div>
+      </div>
+      <!--2-->
+      <div class="container">
+        <div class="mt-5"><h2><b>Новости и обьявления </b></h2></div>
+        
+      </div>
+    </div>
+    
+    <!--2-->
+    <div class="container"><!--carusel 2-->
+        <div id="carouselExampleControls" class="carousel slide" >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--CARDS-->
+                <div class="row">
+                  <div class="card ms-3" style="width: 18rem;">
+                    <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">25 января</h5>
+                      <p class="card-text">Поздравляем наших учащихся с днём студента!</p>
+                      <a href="#" class="btn btn-primary">Читать-></a>
+                    </div>
+                  </div>
+                  <div class="card ms-3" style="width: 18rem;">
+                    <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Заголовок карточки</h5>
+                      <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                      <a href="#" class="btn btn-primary">Читать-></a>
+                    </div>
+                  </div>
+                  <div class="card ms-3" style="width: 18rem;">
+                    <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Заголовок карточки</h5>
+                      <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                      <a href="#" class="btn btn-primary">Читать-></a>
+                    </div>
+                  </div>
+                  <div class="card ms-3" style="width: 18rem;">
+                    <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Заголовок карточки</h5>
+                      <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                      <a href="#" class="btn btn-primary">Читать-></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+              <div class="row">
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+
+              <div class="row">
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary img-fluid">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary img-fluid">Читать-></a>
+                  </div>
+                </div>
+                <div class="card ms-3" style="width: 18rem;">
+                  <img src="img/img.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Заголовок карточки</h5>
+                    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                    <a href="#" class="btn btn-primary">Читать-></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <!-- Элементы управления -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
